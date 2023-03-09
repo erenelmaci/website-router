@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import bannerlogo from "../assets/bannerlogo.png"
 
 const Footer = () => {
@@ -6,7 +7,9 @@ const Footer = () => {
       <footer>
         <div className="footer-logo">
           <p>Clarusway Web Design, Copyright © 2022</p>
-          <img src={bannerlogo} alt="clarusway logo" />
+          <Link to="https://www.linkedin.com/in/erenelmac%C4%B1/">
+            <img src={bannerlogo} alt="clarusway logo" />
+          </Link>
         </div>
       </footer>
     </>

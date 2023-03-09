@@ -2,7 +2,6 @@ import logoHtml from "../assets/logo_html.png"
 import logoCss from "../assets/logo_css.png"
 import logoBrush from "../assets/logo_brush.png"
 import { Link } from "react-router-dom"
-import Html from "../pages/Html"
 
 const Main = () => {
   return (
@@ -20,7 +19,7 @@ const Main = () => {
       <main>
         <div className="options-div">
           <section className="sections-options main-html-section">
-            <Link>
+            <Link to="/html">
               <img className="options-png" src={logoHtml} alt="html_png" />
             </Link>
             <h4>HTML5 Markup</h4>
@@ -30,20 +29,20 @@ const Main = () => {
             </p>
           </section>
           <section className="sections-options main-html-section">
-            <Link>
+            <Link to="/css">
               <img className="options-png" src={logoCss} alt="html_png" />
             </Link>
-            <h4>HTML5 Markup</h4>
+            <h4>CSS3 Styling</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ex
               molestiae, iure neque non odio?
             </p>
           </section>
           <section className="sections-options main-html-section">
-            <Link>
+            <Link to="/logo">
               <img className="options-png" src={logoBrush} alt="html_png" />
             </Link>
-            <h4>HTML5 Markup</h4>
+            <h4>Graphic Design</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ex
               molestiae, iure neque non odio?
