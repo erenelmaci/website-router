@@ -33,6 +33,7 @@ const Navbar = () => {
             type="email"
             name="email"
             placeholder="Enter Email..."
+            required
           />
           <input
             className="subscribe-button"

@@ -233,27 +233,37 @@ button {
   justify-content: space-between;
   flex-direction: row;
 }
-.not-found > div{
-    border: 2px solid rgb(219, 130, 22);
-    background-color: #380612;
-    color: #f8f6f6;
-    text-decoration: none;
-    border-radius: 2rem;
-    display: flex;
-    width: 25rem;
-    height: 15rem;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 10%;
-    margin-left: 35%;
+.not-found > div {
+  border: 2px solid rgb(219, 130, 22);
+  background-color: #380612;
+  color: #f8f6f6;
+  text-decoration: none;
+  border-radius: 2rem;
+  display: flex;
+  width: 25rem;
+  height: 15rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 35%;
 }
-.not-found-link{
-  transition: color .5s ease-in-out ;
+.not-found-link {
+  transition: color 0.5s ease-in-out;
   color: #c53f3f;
   margin-top: 2rem;
 }
-.not-found-link:hover{
-  transition: all .5s ease-out ;
+.not-found-link:hover {
+  transition: all 0.5s ease-out;
   color: #e7d8e2;
+}
+.paragraphs {
+  display: flex;
+  justify-content: center;
+  margin-left: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  text-align: left;
+  /* width: 75rem; */
 }
